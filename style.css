@@ -1,0 +1,209 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.height{
+    height: 250px;
+}
+.h-290{
+    height: 290px;
+}
+.border-radius{
+    border-radius: 5px;
+}
+.yellow-btn{
+    color: white;
+    background-color: rgba(255,235,126,255);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.yellow-btn:hover{
+    color: white;
+    opacity: 0.7;
+}
+.green-btn{
+    color: white;
+    background-color: rgba(149,190,126,255);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.green-btn:hover{
+    color: white;
+    opacity: 0.7;
+}
+.blue-btn{
+    color: white;
+    background-color: rgba(75,120,186,255);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.blue-btn:hover{
+    color: white;
+    opacity: 0.7;
+}
+.w-20rem{
+    width: 20rem;
+}
+.fs-2rem{
+    font-size: 2rem;
+}
+/* MAIN */
+.main{
+    justify-content: space-between;
+    background-image: url('https://imgs.search.brave.com/m1mED6D6vzDYL6ohG8Av3skucZc87K9sKPZYWijfljA/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/Q0hTUFBlc1dWR3Rx/VEotUE9palFnSGFF/SyZwaWQ9QXBp');
+    background-position: center center;
+    background-size: cover;
+    
+}
+.main ul li a{
+    font-family: 'Roboto Slab', serif;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.m-left a:hover{
+    opacity: 0.8;
+}
+.m-left img{
+    height: 100px;
+    width:20rem;
+}
+.m-center h1{
+    font-family: 'Roboto Slab', serif;
+}
+.btn-main{
+    background-color: white;
+    color: white;
+}
+/* MAIN END */
+
+/* IMG */
+.img{
+    background-image: url('');
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+    height: 400px;
+}
+
+/* IMG END */
+
+/* INFO */
+.info{
+    background-image: url('bg.png');
+    background-position: 100% 100%;
+    background-size: cover;
+}
+/* INFO END */
+
+/* WORKERS */
+.workers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+}
+.workers:before{  
+    background-image: url('https://imgs.search.brave.com/zClZihbKkqait6_pNrn1CzkSd-qgPNdYsb2mImRCi50/rs:fit:1200:774:1/g:ce/aHR0cHM6Ly9jLnB4/aGVyZS5jb20vcGhv/dG9zL2E1L2RiL2Ns/b3Vkc19za3lfYmx1/ZV9jbG91ZHNfZm9y/bV93aGl0ZV90aGVf/c2t5X25hdHVyZV93/ZWF0aGVyLTYwMTk4/MS5qcGchZA');
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.1;
+    content: "";
+}
+/* WORKERS END */
+
+/* CONTACT US */
+.contact-us{
+    background-image:url('bg.png');
+    background-position: 100% 100%;
+    background-size: cover;
+}
+/* CONTACT US */
+
+/* FOOTER */
+.f-background{
+    background: rgba(146,170,217,255);
+}
+/* FOOTER END */
+@media (min-width:768px){
+    .h-450{
+        height: 450px;
+    }
+    /* .fs-3rem{
+        font-size: 4rem!important;
+    }
+    .fs-2rem{
+        font-size: 2rem;
+    } */
+    .fs-35{
+        font-size: 35px;
+    }
+    .fs-41{
+        font-size: 41px;
+    }
+    .h-415{
+        height: 415px!important;
+    }
+    /* .m-auto{
+        margin: 0 auto!important;
+        width: 50%!important;
+    } */
+    .m-left img{
+        height: 100px;
+        width: 14rem;
+    }
+    
+}
+@media (min-width:992px){
+    .h-600{
+        height: 600px;
+    }
+    .fs-3rem{
+        font-size: 3rem!important;
+    }
+    .fs-2rem{
+        font-size: 2rem;
+    }
+    .fs-40{
+        font-size: 40px;
+    }
+    .h-415{
+        height: 415px!important;
+    }
+    .m-auto{
+        margin: 0 auto!important;
+        width: 70%!important;
+    }
+    .m-left img{
+        height: 100px;
+        width: 14rem;
+    }
+}
+@media (min-width:1200px){
+    .m-auto{
+        margin: 0 auto!important;
+        width: 60%!important;
+    }
+}
