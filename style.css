@@ -67,7 +67,9 @@ html, body{
 .main ul li a{
     font-family: 'Roboto Slab', serif;
 }
-
+.nav-link:hover{
+    color: #d2c782!important;
+}
 .right{
     display: flex;
     flex-direction: row;

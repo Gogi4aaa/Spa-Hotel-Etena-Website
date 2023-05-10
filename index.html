@@ -145,7 +145,7 @@
                             Creator and manager of the hotel.<br>
                             Interested in business and design.
                         </p>
-                      <a href="#" class="green-btn">View More</a>
+                      <button id="boss" class="green-btn">View More</button>
                     </div>
                   </div>
             </div>
@@ -154,8 +154,8 @@
                     <img src="https://mindhub.bg/uploads/users/thumbnail/12_1495616797.png" class="card-img-top h-290" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Front Manager</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up.</p>
-                      <a href="#" class="green-btn">View More</a>
+                      <p class="card-text">I'm Co-owner of this hotel and I work here with all of our team.</p>
+                      <button id="frontManager" class="green-btn">View More</button>
                     </div>
                   </div>
             </div>
@@ -164,8 +164,8 @@
                     <img src="https://imgs.search.brave.com/y15VjrV9lzjuAojnNK90TeeYPFxnPPkWb6OLE45YIrQ/rs:fit:601:900:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9mYWNl/LXdvcmstc2F0aXNm/YWN0aW9uLXNtaWxp/bmcteW91bmctbWFu/LXdyaXRpbmctbm90/ZS1wYWQtbG9va2lu/Zy1jYW1lcmEtc2l0/dGluZy1oaXMtd29y/a2luZy1wbGFjZS01/NTE4Njk4Ny5qcGc" class="card-img-top h-290" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Financial Director</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up.</p>
-                      <a href="#" class="green-btn">View More</a>
+                      <p class="card-text">I am in charge of the money in the company.</p>
+                      <button id="financialDirector" class="green-btn">View More</button>
                     </div>
                   </div>
             </div>
@@ -174,8 +174,8 @@
                     <img src="https://imgs.search.brave.com/ymp4VnmtSPcaSYWeOO4020daznVdaLR3pA65jA1NX0E/rs:fit:602:752:1/g:ce/aHR0cHM6Ly9xcGgu/ZnMucXVvcmFjZG4u/bmV0L21haW4tcWlt/Zy03ZmI5MzE0NmY1/ZTRlNDcwZjVhNTkw/ZDJmYzM4YmUzYg" class="card-img-top h-290" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Receptionist</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up.</p>
-                      <a href="#" class="green-btn">View More</a>
+                      <p class="card-text">I'm infront of the hotel and when new clients come I accommodate them.</p>
+                      <button id="receptionist1" class="green-btn">View More</button>
                     </div>
                   </div>
             </div>
@@ -184,8 +184,8 @@
                     <img src="https://imgs.search.brave.com/AZAoJde3aeGogQl-gf6F8Xxs96H6eWWyRoXX5Ta2Xa4/rs:fit:1200:1200:1/g:ce/aHR0cDovL3RoaXNw/aXguY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE1LzA2L0Nv/cHktb2YtRWRpdC0x/Nzk4LTEuanBn" class="card-img-top h-290" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Receptionist</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up.</p>
-                      <a href="#" class="green-btn">View More</a>
+                      <p class="card-text">I'm infront of the hotel and when new clients come I accommodate them.</p>
+                      <button id="receptionist2" class="green-btn">View More</button>
                     </div>
                   </div>
             </div>
@@ -228,5 +228,22 @@
         </div>
     </div>
     <!-- FOOTER END -->
+    <script>
+        document.getElementById("boss").addEventListener("click", function(){
+            window.location = "boss.html";
+        });
+        document.getElementById("frontManager").addEventListener("click", function(){
+            window.location = "frontManager.html";
+        });
+        document.getElementById("financialDirector").addEventListener("click", function(){
+            window.location = "financialDirector.html";
+        });
+        document.getElementById("receptionist1").addEventListener("click", function(){
+            window.location = "receptionist1.html";
+        });
+        document.getElementById("receptionist2").addEventListener("click", function(){
+            window.location = "receptionist2.html";
+        });
+    </script>
 </body>
 </html>

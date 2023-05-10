@@ -1,0 +1,147 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.margin-auto{
+    margin: 0 auto;
+    width: 60%;
+}
+.h-750{
+    height: 750px;
+}
+.height{
+    height: 250px;
+}
+.h-290{
+    height: 290px;
+}
+.border-radius{
+    border-radius: 5px;
+}
+
+/* MAIN */
+.main{
+    justify-content: space-between;
+    background-image: url('https://imgs.search.brave.com/m1mED6D6vzDYL6ohG8Av3skucZc87K9sKPZYWijfljA/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/Q0hTUFBlc1dWR3Rx/VEotUE9palFnSGFF/SyZwaWQ9QXBp');
+    background-position: center center;
+    background-size: cover;
+    
+}
+.main ul li a{
+    font-family: 'Roboto Slab', serif;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.m-left a:hover{
+    opacity: 0.8;
+}
+.nav-link:hover{
+    color: #d2c782!important;
+}
+.m-left img{
+    height: 100px;
+    width:20rem;
+}
+.m-center h1{
+    font-family: 'Roboto Slab', serif;
+}
+.btn-main{
+    background-color: white;
+    color: white;
+}
+/* MAIN END */
+
+/* FOOTER */
+.f-background{
+    background: rgba(146,170,217,255);
+}
+/* FOOTER END */
+
+
+
+@media (min-width:768px){
+    /* .h-550{
+        height: 450px;
+    } */
+    .fs-35{
+        font-size: 35px;
+    }
+    .fs-41{
+        font-size: 41px;
+    }
+    .h-415{
+        height: 415px!important;
+    }
+    .margin-bottom{
+        margin-bottom: 3.2rem;
+    }
+    .m-left img{
+        height: 100px;
+        width: 14rem;
+    }
+    .img-workers img{
+        height: 500px;
+        width: 100%;
+    }
+}
+@media (min-width:992px){
+    .h-600{
+        height: 600px;
+    }
+    .fs-3rem{
+        font-size: 3rem!important;
+    }
+    .fs-2rem{
+        font-size: 2rem;
+    }
+    .fs-40{
+        font-size: 40px;
+    }
+    .h-415{
+        height: 415px!important;
+    }
+    .m-auto{
+        margin: 0 auto!important;
+        width: 70%!important;
+    }
+    .m-left img{
+        height: 100px;
+        width: 14rem;
+    }
+    .img-workers img{
+        height: 350px;
+        width: 100%;
+    }
+    .img-workers2{
+        margin-bottom: 1.55rem;
+    }
+    .img-workers2 img{
+        height: 340px;
+        width: 70%;
+    }
+    .img-workers3 img{
+        height: 500px;
+    }
+}
+@media (min-width:1200px){
+    .m-auto{
+        margin: 0 auto!important;
+        width: 60%!important;
+    }
+    .img-workers img{
+        height: 350px;
+        width: 100%;
+    }
+    .img-workers2 img{
+        height: 250px;
+        width: 100%;
+    }
+}

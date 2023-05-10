@@ -76,7 +76,9 @@ html, body{
     height: 100px;
     width:20rem;
 }
-
+.nav-link:hover{
+    color: #d2c782!important;
+}
 .btn-main{
     background-color: white;
     color: white;
@@ -246,9 +248,6 @@ html, body{
     .fs-3rem{
         font-size: 2rem!important;
     }
-    /* .fs-2rem{
-        font-size: 01rem;
-    } */
     .fs-35{
         font-size: 35px;
     }
@@ -258,10 +257,6 @@ html, body{
     .h-415{
         height: 415px!important;
     }
-    /* .m-auto{
-        margin: 0 auto!important;
-        width: 50%!important;
-    } */
     .mb-1rem{
         margin-bottom: 1rem!important;
     }
@@ -269,7 +264,9 @@ html, body{
         height: 100px;
         width: 14rem;
     }
-    
+    .margin-top-7{
+        margin-top: 7px;
+    }
     .grid{
         display: grid;
         grid-template-columns: repeat(15,1fr);
@@ -357,6 +354,9 @@ html, body{
     .m-left img{
         height: 100px;
         width: 14rem;
+    }
+    .margin-top-7{
+        margin-top: 0px;
     }
     .grid{
         display: grid;

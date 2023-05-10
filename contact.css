@@ -22,7 +22,9 @@
     height: 100px;
     width:14rem;
 }
-
+.nav-link:hover{
+    color: #d2c782!important;
+}
 .btn-main{
     background-color: white;
     color: white;
