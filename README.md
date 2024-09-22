@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1485a850-f453-4aaa-9734-a14a367ac468)# Spa Hotel Etena 🏨💆‍♂️ <br/>
+# Spa Hotel Etena 🏨💆‍♂️ <br/>
 Spa Hotel Etena is a simple web-based hotel management system that I created to test and demonstrate my skills in HTML, CSS, and JavaScript. The project simulates the functionalities of a hotel, including room bookings, services, and customer management. <br/>
 
 📜 Project Overview <br/>
